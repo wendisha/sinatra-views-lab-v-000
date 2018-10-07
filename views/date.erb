@@ -5,10 +5,7 @@
     </head>
     <body>
       <h1>Today</h1>
-      <p></p>
+      <% date = Date.today.strftime("%A, %B %d, %Y") %>
+      <p>The date is <%= date %></p>
     </body>
-    
-        <% date = Date.today.strftime("%A, %B %d, %Y") %>
-    <h1>Today</h1>
-    <p>The date is <%= date %></p>
 </html>
